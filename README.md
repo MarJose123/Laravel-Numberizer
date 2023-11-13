@@ -5,6 +5,9 @@
 [![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/marjose123/laravel-numberizer/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/marjose123/laravel-numberizer/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
 [![Total Downloads](https://img.shields.io/packagist/dt/marjose123/laravel-numberizer.svg?style=flat-square)](https://packagist.org/packages/marjose123/laravel-numberizer)
 
+## Introduction
+
+`Laravel-Numberizer` is a fork of [laravel-autonumber](https://github.com/alfa6661/laravel-autonumber) with a support of latest laravel version.
 
 ## Installation
 
