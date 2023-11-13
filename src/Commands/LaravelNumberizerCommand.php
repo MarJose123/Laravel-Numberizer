@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace MarJose123\LaravelNumberizer\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class LaravelNumberizerCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'laravel-numberizer';
 
     public $description = 'My command';
 
