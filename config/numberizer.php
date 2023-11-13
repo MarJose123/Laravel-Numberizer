@@ -1,4 +1,5 @@
 <?php
+
 return [
 
     /*
@@ -12,7 +13,6 @@ return [
     /*
      *   The Starting Value you want to start the creation of the incremental number
      */
-    'startingValue' => (int) 11111
-
+    'startingValue' => (int) 11111,
 
 ];

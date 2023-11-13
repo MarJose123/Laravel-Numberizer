@@ -7,7 +7,6 @@ use MarJose123\LaravelNumberizer\LaravelNumberizer;
 
 class NumberizerObserver
 {
-
     private ?LaravelNumberizer $autoNumber;
 
     public function __construct(LaravelNumberizer $autoNumber)
@@ -19,5 +18,4 @@ class NumberizerObserver
     {
         $this->autoNumber->generate($model);
     }
-
 }

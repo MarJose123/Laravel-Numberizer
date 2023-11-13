@@ -53,13 +53,12 @@ class LaravelNumberizer
 
     protected function exist_function(Model $model, string $hook): bool
     {
-        return is_callable(array(new $model(), $hook), true);
+        return is_callable([new $model(), $hook], true);
     }
 
     public function generate(Model $model): bool
     {
-        if($this->exist_function($model,'NumberizerOptions'))
-        {
+        if ($this->exist_function($model, 'NumberizerOptions')) {
             foreach ($model->numberizerOptions() as $attribute => $options) {
                 if (is_numeric($attribute)) {
                     $attribute = $options;
@@ -79,6 +78,7 @@ class LaravelNumberizer
                 $model->setAttribute($attribute, $autoNumber);
             }
         }
+
         return $model->isDirty();
 
     }
