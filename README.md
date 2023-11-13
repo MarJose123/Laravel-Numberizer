@@ -82,7 +82,7 @@ class Purchase extends Model implements AutoNumber
 
 2. If you want to use `closure` on your format you do so.
 ```php
-public function getAutoNumberOptions()
+public function numberizerOptions()
 {
     return [
         'purchase_number' => [
