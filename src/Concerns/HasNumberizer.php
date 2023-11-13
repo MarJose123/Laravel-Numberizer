@@ -15,5 +15,4 @@ trait HasNumberizer
     {
         static::observe(NumberizerObserver::class);
     }
-
 }

@@ -4,7 +4,6 @@ namespace MarJose123\LaravelNumberizer;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use MarJose123\LaravelNumberizer\Commands\LaravelNumberizerCommand;
 
 class LaravelNumberizerServiceProvider extends PackageServiceProvider
 {
@@ -18,7 +17,6 @@ class LaravelNumberizerServiceProvider extends PackageServiceProvider
         $package
             ->name('laravel-numberizer')
             ->hasConfigFile()
-            ->hasMigration('create_laravel-numberizer_table')
-            ;
+            ->hasMigration('create_laravel-numberizer_table');
     }
 }
