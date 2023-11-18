@@ -9,7 +9,7 @@ return new class extends Migration
     public function up()
     {
         Schema::create('laravel_numberizer_table', function (Blueprint $table) {
-            $table->increments('id')->primary();
+            $table->increments('id');
             $table->string('name', 32);
             $table->integer('number');
             $table->timestamps();
