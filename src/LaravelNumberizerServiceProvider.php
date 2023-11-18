@@ -17,6 +17,6 @@ class LaravelNumberizerServiceProvider extends PackageServiceProvider
         $package
             ->name('laravel-numberizer')
             ->hasConfigFile()
-            ->hasMigration('create_laravel-numberizer_table');
+            ->hasMigrations(['create_numberizer_table']);
     }
 }
