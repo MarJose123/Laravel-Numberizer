@@ -20,14 +20,14 @@ composer require marjose123/laravel-numberizer
 You can publish and run the migrations with:
 
 ```bash
-php artisan vendor:publish --tag="laravel-numberizer-migrations"
+php artisan vendor:publish --tag="numberizer-migrations"
 php artisan migrate
 ```
 
 You can publish the config file with:
 
 ```bash
-php artisan vendor:publish --tag="laravel-numberizer-config"
+php artisan vendor:publish --tag="numberizer-config"
 ```
 
 This is the contents of the published config file:
